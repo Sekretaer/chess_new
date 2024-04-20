@@ -1,0 +1,228 @@
+/* main page */
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.main-page{
+    background-color: rgba(255, 243, 209, 0.5);
+}
+.content{
+    max-width: 1440px;
+    margin:50px 100px;
+    text-align: center;
+    align-self: center;
+}
+.container_1{
+    background-color: beige;
+    position: relative;
+}
+.container_2{
+    background-color: lemonchiffon;
+    position: relative;
+}
+.main-title{
+    font-size: 56px;
+    font-family:'Open Sans';
+    letter-spacing: 1.2px;
+    text-decoration: underline;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+.main-desc{
+    font-size: 26px;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.0px;
+    line-height: 55px;
+    margin-bottom: 60px;
+}
+.chess-image{
+    margin-top: 40px;
+}
+hr{
+    width: 100%;
+    height: 2px;
+}
+.link-button{
+    padding: 5px 30px;
+    background-color: #000;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 32px;
+    font-family: "Open Sans";
+    color: #fff;
+}
+footer{
+    width: 100%;
+    margin-bottom: 50px;
+}
+caption{
+    font-size: 42px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+td{
+    text-align: center;
+}
+tr{
+    font-size: 18px;
+}
+/* main page end */
+/*side pages*/
+.side-page_2{background-color: lemonchiffon;}
+.side-page_1{background-color: beige;}
+#link-back{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    text-decoration: underline;
+    color: dodgerblue;
+}
+.map{
+    position: relative;
+    width: 65%;
+}
+.map-img{
+    width: 100%;
+}
+.invisible{
+    display:none !important;
+}
+.js-btn{
+    margin-top:40px;
+    padding:10px 0px;
+    width:20%;
+}
+.rotated{
+    transform: rotate(180deg);
+}
+.tour-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.list-column{
+    width: 33.33333%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: solid 2px;
+}
+.memb{
+    width: 50% !important;
+}
+.list-column:last-child{
+    border-right: none;
+}
+.list-title{
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.list-desc{
+    font-family: "Open Sans";
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border-top:solid 2px;
+}
+.memb-desc{
+    font-family: "Open Sans";
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+/*side pages end*/
+/*@media*/
+@media (max-width:900px){
+    .map{
+        width: 90%;
+    }
+}
+@media (max-width:650px){
+    .content{
+        margin:25px;
+    }
+    .main-title{
+        font-size: 42px;
+        font-family:'Open Sans';
+        letter-spacing: 1.0px;
+        text-decoration: underline;
+        font-weight: 400;
+        margin-bottom: 50px;
+    }
+    .main-desc{
+        font-size: 21px;
+        font-family: sans-serif;
+        font-weight: 400;
+        letter-spacing: 0.8px;
+        line-height: 55px;
+        margin-bottom: 30px;
+    }
+    .link-button{
+        padding: 5px 10px;
+        background-color: #000;
+        border-radius: 30px;
+        text-decoration: none;
+        font-size: 21px;
+        font-family: "Open Sans";
+        color: #fff;
+    }
+    .list-title{
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .list-desc{
+        font-family: "Open Sans";
+        width: 100%;
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        border-top:solid 2px;
+    }
+    .memb-desc{
+        font-family: "Open Sans";
+        width: 100%;
+        font-size: 15px;
+    }
+    #link-back{
+        position: absolute;
+        left: 10px;
+        top: 5px;
+    }
+}
+@media (max-width:450px){
+    .chess-image{
+        width:90%
+    }
+}
+
+
+
+/*@media end*/
