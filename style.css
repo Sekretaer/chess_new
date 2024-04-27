@@ -66,6 +66,9 @@ hr{
     font-family: "Open Sans";
     color: #fff;
 }
+.link-button:hover{
+    cursor: pointer;
+}
 footer{
     width: 100%;
     margin-bottom: 50px;
